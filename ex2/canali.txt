@@ -1,0 +1,2 @@
+INFO  - Il canale settato è: 2
+ERROR - Inserisci un numero non dei caratteri
