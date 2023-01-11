@@ -1,14 +1,12 @@
 package it.alessiaf.corso;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertThrows;
-
 import org.junit.jupiter.api.Test;
 
 public class CalcolatriceTest {
 
 	@Test
-	public void checkSomma() {
+	public void checkOperazioni() {
 		double a = 10;
 		double b = 2;
 		Calcolatrice cal = new Calcolatrice();
@@ -19,5 +17,4 @@ public class CalcolatriceTest {
 		assertEquals(cal.Potenza(a, b), Math.pow(a, b));
 		assertEquals(cal.Media(a, b), (a+b)/2);
 	}
-	
 }

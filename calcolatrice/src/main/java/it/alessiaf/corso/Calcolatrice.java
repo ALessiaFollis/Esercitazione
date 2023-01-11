@@ -19,6 +19,9 @@ public class Calcolatrice {
 	}
 	
 	public double Divisione(double num1, double num2) {
+		if (num2==0) {
+			throw new IllegalArgumentException("Non puoi dividere per zero!");
+		}
 		double s =num1/num2;
 		System.out.println("Il risultato della divisione è: "+s);
 		return s;
